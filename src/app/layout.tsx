@@ -10,9 +10,10 @@ const inter = Inter({
     axes: ["opsz"],
 });
 
-export const metadata: Metadata = {
+export const metadata: Metadata & { googleSiteVerification: string } = {
     title: "Modern Design Tool Landing Page",
     description: "Created with the help of Frontend Tribe",
+    googleSiteVerification: "JDqk20Q6vdJ3_y0u2--KEDQogny0dB7-syNnw41WhAk",
 };
 
 export default function RootLayout({
