@@ -10,12 +10,11 @@ const inter = Inter({
     axes: ["opsz"],
 });
 
-export const metadata: Metadata & { verification: { ahrefs: string } } = {
+export const metadata: Metadata = {
     title: "Modern Design Tool Landing Page",
     description: "Created with the help of Frontend Tribe",
     verification: {
         google: "JDqk20Q6vdJ3_y0u2--KEDQogny0dB7-syNnw41WhAk",
-        ahrefs: "0d31de2d841854b704d6d7a6c86c3446f0a6fab3217ed12aa8c2209b176add17",
     },
 };
 
@@ -26,6 +25,12 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
+            <head>
+                <meta
+                    name="ahrefs-site-verification"
+                    content="0d31de2d841854b704d6d7a6c86c3446f0a6fab3217ed12aa8c2209b176add17"
+                ></meta>
+            </head>
             <GoogleAnalytics gaId="G-4CE9VEFD1C" />
             <body
                 className={`${inter.variable} font-sans antialiased bg-neutral-950 text-white`}
