@@ -10,11 +10,12 @@ const inter = Inter({
     axes: ["opsz"],
 });
 
-export const metadata: Metadata = {
+export const metadata: Metadata & { verification: { ahrefs: string } } = {
     title: "Modern Design Tool Landing Page",
     description: "Created with the help of Frontend Tribe",
     verification: {
         google: "JDqk20Q6vdJ3_y0u2--KEDQogny0dB7-syNnw41WhAk",
+        ahrefs: "0d31de2d841854b704d6d7a6c86c3446f0a6fab3217ed12aa8c2209b176add17",
     },
 };
 
